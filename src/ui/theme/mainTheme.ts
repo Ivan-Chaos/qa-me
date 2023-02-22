@@ -13,6 +13,7 @@ export const theme = extendTheme({
   },
 
   fontSizes: {
+    "2xs": "0.5rem",
     xs: "0.75rem",
     sm: "0.875rem",
     md: "1rem",
