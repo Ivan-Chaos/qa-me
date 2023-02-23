@@ -7,6 +7,8 @@ import { theme } from "./ui/theme/mainTheme";
 import "../src/ui/fonts/fonts.css";
 import LoginLayout from "./ui/layout/LoginLayout";
 import TesterSignUp from "./pages/TesterSignUp";
+import TesterQuestionare from "./pages/TesterQuestinare";
+import FullWidthLayout from "./ui/layout/FullWidthLayout";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
       <LoginLayout>
         <TesterSignUp />
       </LoginLayout>
+    ),
+  },
+  {
+    path: "/questionare",
+    element: (
+      <FullWidthLayout>
+        <TesterQuestionare />
+      </FullWidthLayout>
     ),
   },
 ]);

@@ -9,7 +9,8 @@ export const theme = extendTheme({
   },
 
   fonts: {
-    main: "Quicksand, sans-serif",
+    heading: "Quicksand, sans-serif",
+    body: "Quicksand, sans-serif",
   },
 
   fontSizes: {
