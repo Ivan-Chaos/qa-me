@@ -9,6 +9,7 @@ import LoginLayout from "./ui/layout/LoginLayout";
 import TesterSignUp from "./pages/TesterSignUp";
 import TesterQuestionare from "./pages/TesterQuestinare";
 import FullWidthLayout from "./ui/layout/FullWidthLayout";
+import DashboardLayout from "./ui/layout/DashboardLayout";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,14 @@ const router = createBrowserRouter([
       <FullWidthLayout>
         <TesterQuestionare />
       </FullWidthLayout>
+    ),
+  },
+  {
+    path: "/dashboard",
+    element: (
+      <DashboardLayout>
+        <Dashboard />
+      </DashboardLayout>
     ),
   },
 ]);
